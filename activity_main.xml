@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.android.wishingcard.MainActivity">
+
+<ImageView
+    android:id="@+id/photo_image_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="centerCrop"
+    android:src="@drawable/success" />
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif-Light"
+    android:textColor="@android:color/black"
+    android:text="Congratulations for your new job" />
+
+<TextView
+    android:layout_below="@+id/textView"
+    android:layout_alignLeft="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif-Light"
+    android:textColor="@android:color/black"
+    android:text="George !"/>
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="10dp"
+    android:textSize="12sp"
+    android:textStyle="italic"
+    android:fontFamily="sans-serif-Light"
+    android:textColor="@android:color/white"
+    android:text="22.03.2017"/>
+
+<TextView
+    android:layout_above="@+id/textView2"
+    android:layout_alignRight="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:fontFamily="sans-serif-Light"
+    android:textColor="@android:color/white"
+    android:text="From Stylianos"/>
+
+</RelativeLayout>
